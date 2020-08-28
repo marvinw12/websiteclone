@@ -1,0 +1,120 @@
+body {
+    background: #F5EFEE;
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    padding: 50px;
+}
+
+.menu {
+    font-weight: 300;
+    width: 100%;
+    font-size: .8rem;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.item {
+    float: left;
+}
+
+.item1 {
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+}
+
+.item1:hover {
+    border-color: black;
+}
+
+.item2 {
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.item3 {
+    padding-left: 1090px;
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+}
+
+.item3:hover {
+    border-color: black;
+}
+
+.header {
+    font-size: 6rem;
+    float: right;
+    position: relative;
+    left: 25px;
+    bottom: 100px;
+}
+
+.bottom-right {
+    float: right;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    text-align: right;
+    font-weight: 200px;
+    font-size: 0.75rem;
+}
+
+.bottom-right-line {
+    padding-bottom: 10px;
+}
+
+.bottom-left {
+    position: relative;
+    top: 250px;
+    left: 25px;
+}
+
+.bottom-left p {
+    padding-bottom: 2px;
+    font-size: .75rem;
+    text-decoration: underline;
+}
+
+.bottom-left h2 {
+    margin-bottom: -30px;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.work {
+    position: relative;
+    top: 500px;
+    padding: 50px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 150px;
+    bottom: 175px;
+    width: 75%;
+}
+
+.img {
+    margin: 2px;
+}
+
