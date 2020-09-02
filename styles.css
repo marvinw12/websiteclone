@@ -1,8 +1,10 @@
 body {
     background: #F5EFEE;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%
 }
 .container {
+    max-width: 100%;
     padding: 50px;
 }
 
@@ -15,7 +17,6 @@ body {
 
 .menu ul {
     list-style-type: none;
-    text-decoration: underline;
 }
 
 .menu-item {
@@ -33,62 +34,71 @@ body {
 
 .item1:hover {
     border-color: black;
+    padding-bottom: 0.5px;
 }
 
 .item2 {
-    text-decoration: underline;
     margin-left: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5px;
 }
 
 .item3 {
-    padding-left: 1090px;
+    float: right;
     transition: 300ms;
     border-bottom: 1px solid transparent;
 }
 
 .item3:hover {
     border-color: black;
+    padding-bottom: 0.5px;
 }
 
 .header {
-    font-size: 6rem;
+    font-size: 7rem;
     float: right;
     position: relative;
-    left: 25px;
+    left: 15px;
     bottom: 100px;
 }
 
-.bottom-right {
+.subheader {
     float: right;
     position: relative;
-    top: 250px;
-    left: 500px;
+    top: 275px;
+    left: 560px;
     text-align: right;
     font-weight: 200px;
     font-size: 0.75rem;
 }
 
-.bottom-right-line {
-    padding-bottom: 10px;
+.subheader-line {
+    padding-bottom: 20px;
 }
 
-.bottom-left {
+.info {
     position: relative;
     top: 250px;
     left: 25px;
 }
 
-.bottom-left p {
+.info p {
     padding-bottom: 2px;
     font-size: .75rem;
     text-decoration: underline;
 }
 
-.bottom-left h2 {
+.info h2 {
     margin-bottom: -30px;
     font-size: 2.2rem;
     font-weight: 400;
     text-align: left;
+}
+
+.fa-copyright {
+    color: black;
+    vertical-align: super;
+    font-size: smaller;
 }
 
 .work {
